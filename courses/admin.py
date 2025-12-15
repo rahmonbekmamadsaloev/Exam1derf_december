@@ -1,3 +1,3 @@
 from django.contrib import admin
-
-# Register your models here.
+from .models import  Course , CourseModule , Task
+admin.site.register([Course ,CourseModule , Task])
